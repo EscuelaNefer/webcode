@@ -1,0 +1,23 @@
+header {
+  .icono {
+    width: 100px;
+    height: 100px;
+  }
+}
+.contactUs{
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  padding: 20px 0;
+  svg {
+    height: 60px;
+    width: 60px;
+    color: #25d366;
+  }
+}

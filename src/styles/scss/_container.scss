@@ -1,0 +1,90 @@
+
+.full-container {
+  max-width: 100%;
+  padding: 0 1rem; 
+}
+
+.container, .small-container, .medium-container {
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.small-container {
+  max-width: 800px; 
+}
+
+.medium-container {
+  max-width: 1000px; 
+}
+
+.content-section {
+  padding: 30px 0; 
+}
+
+.container--grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px auto;
+}
+.item {
+  /* background-color: #4B0454; 
+  border-top: 8px solid #FEC63E;
+  border-bottom: 8px solid #FEC63E;*/
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  .title {
+    color: $color-font-secondary;
+    font: {
+      family: 'Macondo';
+      size: 60px;
+    }
+    text: {
+      align: center;
+      transform: uppercase;
+    }
+    margin: 15px 0;
+    
+  }
+  .item-content {
+    padding: 0 30px;
+    width: 100%;
+    .MuiFormControl-root {
+      label {
+        color: $color-font-primary;
+        &.Mui-focused{
+          color: $color-font-secondary;
+        }
+      }
+      .MuiInput-underline{
+        &:before{
+          border-color: $color-font-primary;
+        }
+        &:after{
+          border-bottom: 2px solid $color-font-secondary;
+        }
+      }
+    }
+    p {
+      margin: 10px 0;
+    }
+  }
+}
+.MuiContainer-root {
+  display: grid;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .item {
+    flex-direction: column;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .item .item-content {
+    padding: 0;
+  }
+}

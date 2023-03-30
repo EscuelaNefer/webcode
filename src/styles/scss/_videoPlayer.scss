@@ -1,0 +1,16 @@
+.player-wrapper {
+  position: relative;
+  padding-top: 39.25%;
+ /*  background: rgb(42,25,47);
+  background: linear-gradient(180deg, rgba(42,25,47,1) 0%, rgba(62,0,73,1) 35%, rgba(75,4,84,1) 100%); */
+}
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 992px) {
+  .player-wrapper {
+    padding-top: 56.25%;
+  }
+}

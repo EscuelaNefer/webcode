@@ -1,0 +1,31 @@
+{
+  "home": "Home",
+  "bio": "Bio",
+  "workshops": "Workshops",
+  "contact": "Contact",
+  "loading": "....loading",
+  "contactTypes": "Contact",
+  "socialNetwors": "Social Networs",
+  "cafecitoApp": "If you support free content, invite me a 'cafecito'",
+  "somethingWentWrong": "Sorry, an unexpected error has occurred.",
+  "politics": "Privacy Policy",
+  "tyc": "Legal",
+  "copyrightText": "Copyright.",
+  "subscribe":"Subscribe",
+  "language": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "alquimia": {
+    "title":"Alchemy",
+    "description": "The path of Alchemy is a journey of deep self-knowledge.<br />For alchemists, the mind is our laboratory, that magical world where anything can happen and where everything can be created.<br />The first stage of alchemy is to recognize that what we call “problems” are lessons that are presented in our life so that we “modify something”, <span class=text-yellow>“EITHER LEARN THE LESSON OR LEARN THE INJURY”</span>.<br />Ancient <span class=text-yellow>ALCHEMISTS</span> left “clues” through myths, symbologies and allegories to understand the <span class=text-yellow>HISTORY</span> behind the <span class=text-yellow>HISTORY</span> captured before the eyes of all, but only understood by those who were secretly instructed.<br />As it was taught in other times, so it is taught in the <span class=text-yellow>NEFER SCHOOL</span>, eaching the secrets embodied in <span class=text-yellow>STONE</span> called <span class=text-yellow>CATHEDRALS</span>: silent books that will reveal prophecies and teachings for those who want to start the inner journey towards the transmutation and rebirth of being, a process that will invite you to learn tools that will help you modify any aspect of your <span class=text-yellow>REALITY</span> and understand the art of materialization.<br />Alchemy is an inner call that proposes us to undertake the journey from earth to heaven...<br /><br /><i>“We are stardust our essence is to shine with own light”</i>"
+  },
+  "talleres": {
+    "title": "Online Workshops",
+    "description": "100% online and recorded workshops where you want to break limiting beliefs, formulate goals, analyze your name, discover what is behind your “problems” and how to use the crisis as an opportunity."
+  },
+  "subscribite": {
+    "title": "Subscribe",
+    "description": "Recibí consejos, reflexiones de forma periódica"
+  }
+}

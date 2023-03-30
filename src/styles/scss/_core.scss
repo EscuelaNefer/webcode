@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Satisfy&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #4B0454;
+  background: linear-gradient(180deg, rgb(42, 25, 47) 0%, rgb(62, 0, 73) 35%, rgb(75, 4, 84) 100%);
+  color: $color-font-primary;
+}
+.text-yellow{
+  color: $color-font-secondary;
+}
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.MuiTypography-body1,
+.MuiTypography-body2{
+  font-family: inherit !important;
+}
+
+.MuiTypography-body1 {
+  a {
+    margin-right: 20px;
+    color: inherit;
+    text-decoration: none;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+.MuiTypography-body2 {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

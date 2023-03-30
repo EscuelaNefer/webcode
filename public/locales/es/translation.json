@@ -1,0 +1,31 @@
+{
+  "home": "Inicio",
+  "bio": "Bio",
+  "workshops": "Talleres",
+  "contact": "Contacto",
+  "loading": "....cargando",
+  "contactTypes": "Formas de Contacto",
+  "socialNetwors": "Redes Sociales",
+  "cafecitoApp": "Si apoyas el contenido gratuito, invitame un cafecito",
+  "somethingWentWrong": "Perdón, ha ocurrido un error.",
+  "politics": "Políticas de Privacidad",
+  "tyc": "Términos y Condiciones",
+  "copyrightText": "Todos los derechos reservados.",
+  "subscribe":"Subscribite",
+  "language": {
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "alquimia": {
+    "title":"Alquimia",
+    "description": "El camino de la Alquimia es un viaje de autoconocimiento muy profundo.<br />Para los alquimistas la mente, es nuestro laboratorio, ese mundo mágico donde cualquier cosa puede ocurrir y donde todo puede crearse.<br />La primera etapa de la Alquimia es reconocer que lo que llamamos “problemas” son lecciones que se presentan en nuestra vida para que “modifiquemos algo”, <span class=text-yellow>“O APRENDÉS LA LECCIÓN O APRENDES LA LESION”</span>.<br />Los antiguos <span class=text-yellow>ALQUIMISTAS</span> dejaron “pistas” a través de mitos, simbologías y alegorías para entender la <span class=text-yellow>HISTORIA</span> detrás de la <span class=text-yellow>HISTORIA</span> plasmada frente a los ojos de todos, pero solo entendida por aquellos que fueron instruidos en secreto.<br />Así como se enseñaba en otros tiempos, así se enseña en la <span class=text-yellow>ESCUELA NEFER</span>, enseñando los secretos plasmados en <span class=text-yellow>PIEDRA</span> llamados <span class=text-yellow>CATEDRALES</span>: libros mudos que nos revelarán profecías y enseñanzas para quien quiere iniciar el viaje interior hacia la transmutación y renacimiento del ser, un proceso que te invitará aprender herramientas que te ayudarán a modificar cualquier aspecto de tu <span class=text-yellow>REALIDAD</span> y comprender el arte de la materialización.<br />Alquimia es un llamado interior que nos propone emprender el viaje de la tierra al cielo...<br /><br /><i>“Somos polvo de estrellas nuestra esencia es brillar con luz propia”</i>"
+  },
+  "talleres": {
+    "title": "Talleres Online",
+    "description": "Talleres 100% online y grabados donde apenderás romper creencias limitantes, a formular las metas, cómo analizar tu nombre, a descubrir que hay detrás de tus “problemas” y como usar la crisis como oportunidad."
+  },
+  "subscribite": {
+    "title": "Subscribite",
+    "description": "Recibí consejos, reflexiones de forma periódica"
+  }
+}

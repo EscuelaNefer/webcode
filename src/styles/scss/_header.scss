@@ -1,0 +1,145 @@
+
+header {
+  /* display: grid;
+  grid-template-columns: 60px auto auto;
+  grid-gap: 20px;
+  align-items: center; */
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  position: sticky;
+  top: 0;
+  background-color: $purple-dark;
+  color: $color-font-primary;
+  z-index: 1000;
+  .logo-container {
+    width: 60px;
+  }
+  .title {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 1rem;
+  }
+  .navigation-menu {
+    margin-left: auto;
+    ul {
+      display: flex;
+      padding: 0;
+    }
+    li {
+      /* removes default disc bullet for li tags and applies margin to left & right side*/
+      list-style-type: none;
+      margin: 0 1rem;
+      a {
+        /* increases the surface area of the anchor tag to span more than just the anchor text*/
+        text-decoration: none;
+        display: block;
+        color: $color-font-primary;
+        width: 100%;
+        &.active {
+          color: $color-font-secondary;
+        }
+      }
+    }
+  }
+
+  .icon {
+    height: 40px;
+    font-size: 40px;
+    z-index: 100;
+    justify-self: self-end;
+    margin-right: 15px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .languages-menu {
+    ul {
+      display: none;
+      padding: 0;
+      position: absolute;
+      flex-direction: column;
+      top: 60px;
+      right: 0;
+      width: 350px;
+      height: calc(100vh - 77px);
+      background-color: #2a192f;
+      border-top: 1px solid black;
+    }
+    li {
+      /* removes default disc bullet for li tags and applies margin to left & right side*/
+      list-style-type: none;
+      margin: 0 1rem;
+      text-align: center;
+      margin: 0;
+      a {
+        /* increases the surface area of the anchor tag to span more than just the anchor text*/
+        text-decoration: none;
+        display: block;
+        color: $color-font-primary;
+        padding: 1.5rem 0;
+        width: 100%;
+        &:hover {
+          background-image: -webkit-linear-gradient(top,#433d6c,#5d4c78);
+          cursor: pointer;  
+        }
+      }
+    }
+    &.expanded ul{
+      display: flex;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  header nav {
+    display: inline;
+  }
+  header .icon.just-mobile {
+    display: none;
+
+  }
+}
+@media screen and (max-width: 1024px) {
+  header .navigation-menu ul {
+    display: none;
+    background-color: #2a192f;
+  }
+  .navigation-menu ul {
+    /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar)*/
+    position: absolute;
+    top: 60px;
+    left: 0;
+    /* stacks the li tags vertically */
+    flex-direction: column;
+   /* makes menu span full height and width*/
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: #FFFFFF;
+    border-top: 1px solid black;
+  }
+  .navigation-menu li {
+    /* centers link text and strips off margin*/
+    text-align: center;
+    margin: 0;
+  }
+  .navigation-menu li a {
+    color: black;
+    /* increases the surface area of the anchor tag to span the full width of the menu*/
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation-menu li:hover {
+    background-image: -webkit-linear-gradient(top,#433d6c,#5d4c78);
+   // background-color: #eee;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+  header .languages-menu ul {
+    left: 0;
+    width: 100%;
+  }
+}

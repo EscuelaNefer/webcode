@@ -12,7 +12,7 @@ export default function Subscribe({ title, img }) {
           src="https://nataliabarrera.ipzmarketing.com/f/jL5Syunhplc"
           scrolling="no"
           width="100%"
-          height="350px"
+          height="500px"
           className="ipz-iframe"
         ></iframe>
       </div>

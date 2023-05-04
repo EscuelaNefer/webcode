@@ -25,8 +25,10 @@ function App() {
         <VideoPlayer url={Video} />
         <Item
           title={t("alquimia.title")}
+          subtitle={t("alquimia.subtitle")}
           description={t("alquimia.description")}
           img={AlquimiaImg}
+          infoLink={""}
         />
         <Item
           title={t("talleres.title")}
